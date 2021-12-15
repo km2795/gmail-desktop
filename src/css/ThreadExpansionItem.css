@@ -1,0 +1,77 @@
+.thread-expansion-item {
+	margin: 5px 2px;
+	padding: 5px;
+	font-family: "Quicksand-Medium";
+}
+
+.thread-expansion-item-btn {
+	box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.1);
+	padding: 10px;
+	font-size: 15px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.thread-expansion-item-btn-date {
+	float: right;
+	color: grey;
+}
+
+.thread-expansion-item-content-cont {
+	display: none;
+	padding: 20px;
+	box-shadow: 1px 4px 14px 0px rgba(0, 0, 0, 0.1);
+}
+
+.thread-expansion-item-header-info { 
+	font-size: 14px; 
+}
+
+.thread-expansion-item-header-subject { 
+	padding: 10px 0px;
+	font-size: 25px;
+	color: orangered;
+	font-family: "Quicksand-Medium";
+}
+
+.thread-expansion-item-header-date { 
+	margin-right: 15px;
+	font-family: "Quicksand-Bold";
+	font-size: 14px;
+	color: rgba(0, 0, 0, 0.7);
+	float: right;
+}
+
+.thread-expansion-item-header-from { 
+	color: rgba(0, 0, 0, 0.5); 
+	margin-top: 15px; 
+}
+
+.thread-expansion-item-header-to { 
+	color: rgba(0, 0, 0, 0.5);
+	margin-bottom: 15px;
+}
+
+.thread-expansion-item-header-to>span { 
+	color: black; 
+}
+
+.thread-expansion-item-body { 
+	padding: 20px 0px;
+}
+
+.thread-expansion-item-message-body {
+	padding: 0px;
+	border: 0px;
+	width: 100%;
+	overflow: auto;
+}
+
+.thread-expansion-item-footer {
+	margin-top: 20px;
+	overflow: auto;
+}
+
+.thead-expansion-attachment-list {
+	overflow: hidden;
+}

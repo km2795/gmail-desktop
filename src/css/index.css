@@ -1,0 +1,66 @@
+@font-face {
+  src: url('../assets/font/Quicksand/Quicksand-Regular.ttf');
+  font-family: 'Quicksand-Regular';
+}
+
+@font-face {
+  src: url('../assets/font/Quicksand/Quicksand-Medium.ttf');
+  font-family: 'Quicksand-Medium';
+}
+
+@font-face {
+  src: url("../assets/font/Quicksand/Quicksand-Bold.ttf");
+  font-family: "Quicksand-Bold";
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  overflow: hidden;
+}
+
+header {
+  overflow: auto;
+  z-index: 999;
+  background: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin: 4px;
+}
+
+article {
+  overflow: auto;
+  display: flex;
+}
+
+.article-cont-1, .article-cont-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Scrollbar modifications. */
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background: rgb(78, 72, 72);
+  -webkit-box-shadow: 2px 3px 9px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 3px 9px rgba(0, 0, 0, 0.5);
+}

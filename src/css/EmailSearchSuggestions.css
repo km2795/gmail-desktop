@@ -1,0 +1,12 @@
+.email-search-suggestions {
+  position: fixed;
+  z-index: 100;
+  background-color: white;
+  width: 372px;
+  padding: 0px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  max-height: 400px;
+  overflow: auto;
+  box-shadow: 1px 4px 14px 0px rgba(0, 0, 0, 0.1);
+}

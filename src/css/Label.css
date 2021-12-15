@@ -1,0 +1,10 @@
+.message-label-badge {
+  margin: auto 5px;
+  font-size: 13px;
+  font-family: "Quicksand-Bold";
+}
+
+.user-label {
+  color: black;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}

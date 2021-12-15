@@ -1,0 +1,35 @@
+.message-attachment-item {
+  float: left;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 5px;
+  line-height: 2;
+}
+
+.message-attachment-item-icon {
+  padding: 2px 10px;
+  float: left;
+}
+
+.message-attachment-item-name {
+  font-size: 13px;
+  padding: 4px;
+  float: right;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 150px;
+}
+
+.message-attachment-item-size {
+  color: grey;
+  float: right;
+  padding: 4px;
+  font-size: 13px;
+}
+
+.message-attachment-item-download {
+  padding: 2px 10px;
+  float: left;
+  cursor: pointer;
+}

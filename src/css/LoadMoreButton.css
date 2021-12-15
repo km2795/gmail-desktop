@@ -1,0 +1,12 @@
+.load-more-btn {
+	overflow: hidden;
+	text-align: center;
+}
+
+.load-more-btn button {
+	font-family: "Quicksand-Bold";
+	font-size: 13px;
+	background-color: orangered;
+	color: rgba(0, 0, 0, 0.75) !important;
+	width: 50%;
+}

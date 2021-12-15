@@ -1,0 +1,31 @@
+.thread-list-nav-cont {
+  height: calc(100vh - 40px);
+  max-width: 210px;
+  overflow: auto;
+  background-color: #fff;
+  box-shadow: 1px 4px 14px 1px rgba(0, 0, 0, 0.1);
+}
+
+.article-cont-1 {
+  flex: 1;
+}
+
+.thread-list-expand-cont { 
+	text-align: right; 
+}
+
+.thread-list-expand-button {
+	position: absolute;
+	font-size: 20px;
+	z-index: 12;
+	box-shadow: 1px 4px 14px 1px rgba(0, 0, 0, 0.1);
+	background-color: white;
+	padding: 0px 10px;
+	border: 1px solid rgba(0, 0, 0, 0.05);
+	opacity: 0.5;
+	border-radius: 3px;
+}
+
+.thread-list-expand-button:hover {
+	opacity: 1;
+}

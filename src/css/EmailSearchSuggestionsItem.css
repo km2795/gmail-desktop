@@ -1,0 +1,17 @@
+.email-search-suggestions-item {
+  padding: 10px;
+  font-family: "Quicksand-Medium";
+  font-size: 14px;
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.035);
+  cursor: pointer;
+}
+
+.email-search-suggestions-item:last-child {
+  border-bottom: 0px;
+}
+
+.email-search-suggestions-item:hover {
+  background-color: #adadad;
+  color: white;
+}

@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render labels of a thread 1`] = `
+<p
+  className="message-labels"
+>
+  <span
+    className="
+    badge badge-orange 
+    message-label-badge 
+    "
+  >
+    UPDATES
+  </span>
+  <span
+    className="
+    badge badge-red 
+    message-label-badge 
+    "
+  >
+    INBOX
+  </span>
+  <span
+    className="
+    badge badge-lime 
+    message-label-badge 
+    "
+  >
+    CHAT
+  </span>
+  <span
+    className="
+    badge badge-white 
+    message-label-badge 
+    user-label"
+  >
+    Archive_Payments
+  </span>
+</p>
+`;

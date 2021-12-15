@@ -1,0 +1,12 @@
+.email-search-input {
+  border-bottom: 0px !important;
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+  border-radius: 2px !important;
+  box-shadow: 2px 1px 20px 0px rgba(0, 0, 0, 0.1) !important;
+  height: 25px !important;
+  padding: 4px 10px !important;
+  margin: 1px auto 1px 1px !important;
+  width: 350px !important;
+  font-size: 14px !important;
+  font-family: "Quicksand-Medium" !important;
+}

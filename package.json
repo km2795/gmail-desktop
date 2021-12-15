@@ -1,0 +1,64 @@
+{
+  "name": "xc9-gmail-notifier",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "electron ./src/electron.js",
+    "build": "rm -rf dist/ && webpack --config webpack.config.js --progress --hot --watch",
+    "clean": "rm -rf dist/",
+    "test": "jest",
+    "lint": "eslint"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    },
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/test/__MOCKS__/FileMock.js",
+      "\\.(css|less)$": "<rootDir>/test/__MOCKS__/StyleMock.js"
+    }
+  },
+  "dependencies": {
+    "async": "^2.6.3",
+    "dotenv": "^4.0.0",
+    "email-validator": "^2.0.4",
+    "fs-extra": "^7.0.1",
+    "gmail-api-parse-message": "^2.1.2",
+    "google-auth-library": "^0.11.0",
+    "googleapis": "^22.2.0",
+    "he": "^1.2.0",
+    "is-online": "^8.2.1",
+    "lodash": "^4.17.15",
+    "mongodb": "^3.5.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-react": "^7.9.4",
+    "autoprefixer": "^9.7.5",
+    "babel-jest": "^24.9.0",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.4.2",
+    "electron": "^3.1.13",
+    "electron-packager": "^15.0.0",
+    "electron-rebuild": "^1.10.1",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-standard": "^4.0.1",
+    "file-loader": "^4.3.0",
+    "jest": "^24.9.0",
+    "postcss-loader": "^3.0.0",
+    "react-test-renderer": "^16.13.1",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-node-externals": "^1.7.2"
+  }
+}

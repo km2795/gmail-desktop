@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render a system label of a thread 1`] = `
+<span
+  className="
+    badge badge-red 
+    message-label-badge 
+    "
+>
+  INBOX
+</span>
+`;
+
+exports[`should render a user label of a thread 1`] = `
+<span
+  className="
+    badge badge-white 
+    message-label-badge 
+    user-label"
+>
+  Archive_Payments
+</span>
+`;

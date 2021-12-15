@@ -1,0 +1,25 @@
+.message-view {
+  position: fixed;
+  bottom: 0px;
+  text-align: right;
+  width: 100%;
+  background-color: orangered;
+  z-index: 10000;
+}
+
+.message-view-left { 
+  float: left; 
+  margin-left: 10px;
+}
+
+.message-view-right { 
+  float: right;
+  margin-right: 10px;
+}
+
+.message-view-text {
+  color: white;
+  font-family: "Quicksand-Bold";
+  font-size: 14px;
+  vertical-align: middle;
+}

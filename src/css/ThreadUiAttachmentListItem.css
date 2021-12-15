@@ -1,0 +1,18 @@
+.thread-ui-attachment-list-item {
+  border: 1px solid rgba(189, 171, 171, 0.22);
+  border-radius: 4px;
+  max-width: 200px;
+  overflow: hidden;
+  padding: 0px 10px;
+  float: left;
+  line-height: 2.3;
+  margin: 5px;
+  background-color: #ff5e2214;
+  cursor: pointer;
+}
+
+.thread-ui-attachment-list-item-name {
+  font-size: 15px;
+  font-family: "Quicksand-Medium";
+  vertical-align: top;
+}

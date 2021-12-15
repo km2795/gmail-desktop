@@ -1,0 +1,11 @@
+.thread-list-empty-banner {
+  padding: 10px;
+  font-family: "Quicksand-Bold";
+  font-size: 25px;
+  color: orangered;
+  background-color: #fff;
+  text-align: center;
+  margin: 10% 100px;
+  border: 1px solid #ff450042;
+  box-shadow: 1px 4px 20px 0px rgba(0, 0, 0, 0.1);
+}

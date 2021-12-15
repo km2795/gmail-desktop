@@ -1,0 +1,101 @@
+.message-body-top, .message-body-bottom { overflow: auto; }
+.message-body-top-left { float: left; }
+.message-body-top-right { float: right; }
+
+.message-body {
+  padding: 14px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.message-body-top {
+  line-height: 1;
+  padding: 5px 0px;
+}
+
+.message-body-top-left {
+  cursor: pointer;
+}
+
+.message-from {
+  margin-left: 5px;
+  vertical-align: sub;
+  font-family: "Quicksand-Bold";
+}
+
+.thread-message-count {
+  margin: 0 15px;
+  color: white;
+  padding: 3px 6px;
+  font-family: 'Quicksand-Medium';
+  font-size: 15px;
+  vertical-align: sub;
+}
+
+.message-status-icon-cont {
+  display: none;
+  margin-right: 20px;
+  vertical-align: sub;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.message-status-icon {
+  margin: 0px 10px;
+  font-size: 18px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.message-body:hover .message-status-icon-cont {
+  display: inline-block;
+}
+
+.message-from,
+.message-to,
+.message-date {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.message-date {
+  font-family: "Quicksand-Bold";
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.7);
+  margin: 7px;
+  float: right;
+}
+
+.message-subject {
+  margin: 3px 5px;
+  font-family: "Quicksand-Medium";
+  font-size: 14px;
+  display: block;
+  color: rgba(27, 8, 97, 0.95);
+}
+
+.message-snippet {
+  margin: 3px 5px;
+  font-family: "Quicksand-Medium";
+  font-size: 14px;
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+}
+
+.message-subject, .message-snippet {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.message-body-bottom {
+  line-height: 2;
+}
+
+.bold-black {
+  color: black;
+  font-family: "Quicksand-Bold";
+}
+
+.message-body-bottom-bottom {
+  overflow: hidden;
+  margin-top: 10px;
+}

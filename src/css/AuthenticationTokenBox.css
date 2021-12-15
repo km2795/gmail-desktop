@@ -1,0 +1,49 @@
+.input-box-cont {
+  position: absolute;
+  background-color: white;
+  padding: 10px;
+  z-index: 10000;
+  box-shadow: 4px 8px 20px 0px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  left: 0px;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
+  background: #47305a;
+}
+
+.input-box-close-btn {
+  display: inline-block;
+  padding: 10px;
+  color: white;
+}
+
+.info-input-box { 
+  max-width: 700px;
+  margin: auto;
+  width: 80%;
+}
+
+.input-box {
+  width: 75%;
+  margin: auto;
+  font-family: "Quicksand-Medium";
+}
+
+.token-code-input {
+  padding: 10px;
+  border: 0px;
+  font-size: 15px;
+  font-family: "Quicksand-Medium";
+  color: rgba(255, 255, 255, 0.8);
+  border-radius: 2px !important;
+  border-bottom: 0px !important;
+  background-color: rgba(0, 0, 0, 0.1) !important;
+  box-shadow: none !important;
+}
+
+.token-code-input::placeholder { color: rgba(255, 255, 255, 0.8); }
+
+.token-code-input-submit-btn {
+  float: right;
+  margin-right: -20px;
+  font-family: "Quicksand-Bold";
+}
