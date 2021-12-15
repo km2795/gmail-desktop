@@ -13,7 +13,7 @@ function createWindow () {
     webPreferences: {
       devTools: true
     },
-    show: false // Do not show the app until it is loaded completely.
+    show: false // Do not show the app until it has loaded completely.
   });
 
   // Remove the default menu bar.
