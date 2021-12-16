@@ -1,8 +1,6 @@
 /* eslint-disable brace-style */
 "use strict";
 
-const isOnline = require("is-online");
-
 const Utility = {
 
   /**
@@ -117,14 +115,6 @@ const Utility = {
     else if (len < 13) { return (bytes / 1000000000) + " GB"; }
     else if (len < 16) { return (bytes / 1000000000000) + " TB"; }
   },
-
-  /**
-   * Check network status (online or not).
-   *
-   * @callback
-   */
-  checkNetworkStatus: (callback) =>
-    isOnline().then((online) => callback(online)),
 
   /**
    * Check if the email field contains the name part
