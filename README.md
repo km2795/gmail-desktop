@@ -1,7 +1,5 @@
 # Gmail Desktop Client
 
-![Build Status](https://travis-ci.org/work95/gmail-desktop.svg?branch=development)
-
 ## Table of Contents
 
 - [Dependencies](#markdown-header-dependencies)
