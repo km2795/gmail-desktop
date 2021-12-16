@@ -9,3 +9,4 @@
 ## #5. Make Thread expansion resizable.
 ## #6. Make Thread expansion and navigation expandable/collapsible with keys (preferably '[', ']').
 ## #7. Sync the labels when they are added or deleted, without reloading the app.
+## #8. Fix the message search.
