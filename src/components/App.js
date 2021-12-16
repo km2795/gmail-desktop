@@ -956,12 +956,21 @@ class App extends React.Component {
 
         <header>
           <span className="header-left">
+
+            {
+             /*
+              * Search feature is turned off until fixed.
+              *
             <EmailSearch
               threads={this.state.Threads}
               searchMessages={Main.searchMessages}
               suggestions={this.state.messageSearchSuggestions}
               selectMessageSearchSuggestion={this.selectMessageSearchSuggestion}
             />
+              *
+              */
+            }
+
           </span>
 
           <span className="header-right">
