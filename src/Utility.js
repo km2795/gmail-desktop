@@ -3,6 +3,16 @@
 
 const Utility = {
 
+  /*
+   * To show full name of the month instead of abbreviations
+   * provided by getMonth() method.
+   */
+  MonthNames: [
+    "January", "February", "March", "April",
+    "May", "June", "July", "August", "September",
+    "October", "November", "December"
+  ],
+
   /**
    * Check if @param {string} val2 is a subsequence of
    * @param {string} val1.
@@ -203,12 +213,6 @@ const Utility = {
     let messageDate;
     const date = new Date(dateStr) || new Date();
 
-    const MonthNames = [
-      "January", "February", "March", "April",
-      "May", "June", "July", "August", "September",
-      "October", "November", "December"
-    ];
-
     if (full) {
       let temp = date.toUTCString().split(" ");
       messageDate = `${temp[1]} ${temp[2]} ${temp[3]} `;
@@ -222,11 +226,11 @@ const Utility = {
 
       // If the date belongs to the current year, show only date and month.
       } else if (date.getUTCFullYear() === new Date().getUTCFullYear()) {
-        messageDate = `${date.getDate()} ${MonthNames[date.getMonth()].substring(0, 3)}`;
+        messageDate = `${date.getDate()} ${Utility.MonthNames[date.getMonth()].substring(0, 3)}`;
 
       // For other dates, show date, month and year.
       } else {
-        messageDate = `${date.getDate()} ${MonthNames[date.getMonth()].substring(0, 3)} ${date.getFullYear()}`;
+        messageDate = `${date.getDate()} ${Utility.MonthNames[date.getMonth()].substring(0, 3)} ${date.getFullYear()}`;
       }
     }
 
