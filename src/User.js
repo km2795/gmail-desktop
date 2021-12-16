@@ -5,9 +5,8 @@ import Config from "./Config";
 
 class User {
   constructor (id, dir, store) {
-    const date = new Date().getTime();
     this.id = id;
-    this.dir = dir || `user${date}`;
+    this.dir = dir || `user${new Date().getTime()}`;
     this.store = store || Path.join(Config.USER_STORE_DIR, `${this.dir}`);
   }
 
