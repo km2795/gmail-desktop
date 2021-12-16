@@ -15,7 +15,7 @@ class User {
    *
    * @param {}
    *
-   * @returns {object} - User object.
+   * @returns {string} - ID of the User object.
    */
   getId () {
     return this.id;
