@@ -1,6 +1,15 @@
+# NPM downloaded node modules.
 node_modules
+
+# Client secret credentials provided with the Gmail API (after setup).
 client_secret.json
+
+# Build directory.
 dist/
+
+# Storage (user data and logs) directory.
 .store/
+
+# Miscellaneous files.
 images/
 *.txt
