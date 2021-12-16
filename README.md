@@ -7,45 +7,51 @@
 
 ## Dependencies
 
-- Node.js
+- Node.js <b>(Version 14.6.0 or earlier)</b>
 - NPM
 - MongoDB
 - Google Account with Gmail API enabled (if not, read below).
 
 ## How to install
 
-### 1. Clone the repository
+#### 1. Check if you have Node v14.6.0 or earlier (It won't work in newer versions).
 
 ```bash
-git clone https://github.com/work95/gmail-desktop.git
+node -v
 ```
 
-### 2. Get inside the cloned repository
+#### 2. Clone the repository
+
+```bash
+git clone https://github.com/km2795/gmail-notifier.git
+```
+
+#### 3. Get inside the cloned repository
 
 ```bash
 cd gmail-desktop
 ```
 
-### 3. Install dependencies
+#### 4. Install dependencies
 
 ```bash
 npm install
 ```
 
-### 4. Enable Gmail API
+#### 5. Enable Gmail API
 
-Refer this link to get started with the Gmail API.
+Refer the link below to get started with the Gmail API.
 
 > <https://developers.google.com/gmail/api/quickstart/nodejs>
 
-### 5. Store the credentials in the root directory of this project
+#### 6. Store the credentials in the root directory of this project
 
-### 6. Start the project
+#### 7. Start the project
 
 ```bash
 npm start
 ```
 
-### 7. For new login, after the authorization is done, paste the authorization token code into the dialog box on top of the screen
+#### 8. For new login, after the authorization is done, paste the authorization token code into the dialog box on top of the screen
 
-### 8. That's it
+#### 9. That's it
