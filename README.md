@@ -7,14 +7,14 @@
 
 ## Dependencies
 
-- Node.js <b>(Version 14.6.0 or earlier)</b>
+- Node.js
 - NPM
 - MongoDB
 - Google Account with Gmail API enabled (if not, read below).
 
 ## How to install
 
-#### 1. Check if you have Node v14.6.0 or earlier (It won't work in newer versions).
+#### 1. Check if you have Node
 
 ```bash
 node -v
