@@ -206,6 +206,7 @@ const GmailApi = {
         "includeSpamTrash": true
       }, function (err, response) {
         if (err) {
+          Config.Logger.error("" + err);
           callback({
             "status": false,
             "data": { "messageList": [], "threadList": [] }

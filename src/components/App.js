@@ -813,7 +813,8 @@ class App extends React.Component {
         Threads.getMessageKeys(),
         (result) => {
           if (!result.status) {
-            console.log("Internal Error");
+            Config.Logger.error(result);
+            console.log("Internal Error!");
             // Reset the flag.
             Config.FetchingMessages = false;
             callback(null);
