@@ -199,8 +199,10 @@ const Utility = {
    * Return a better representation of the date string.
    * If the date string is today's date, show only the time
    * (e.g., 14:12, 9:10, etc.).
+   * 
    * If the date string has year matching current year, then
    * show the date and month only (e.g., 25 Aug, 5 Nov, etc.).
+   * 
    * For all other cases, show the date, month and year
    * (e.g., 26 Nov 2018, 13 Mar 2019).
    *
